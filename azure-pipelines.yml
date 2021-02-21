@@ -23,7 +23,7 @@ steps:
   displayName: 'USe .net core sdk $(dotnetSdkVersion)'
   inputs: 
       packageType: sdk
-      version: '$(dotnetSdkVersion)''
+      version: '$(dotnetSdkVersion)'
 
 - task: Npm@1
   displayName: 'Run npm install'
